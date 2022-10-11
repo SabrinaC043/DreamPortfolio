@@ -1,0 +1,11 @@
+body{
+  background-color: lightgrey;
+  background-image: url(./assets/images/lightningBolt.png);
+  background-size: 35%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* .about{
+  border: 3px solid black;
+} */
