@@ -9,7 +9,7 @@ Utilizied React-bootstrap for design and React.
 
 - Deploying to Heroku
 - Implementing favIcons, some of them were not free.
-- Enlarging background created from a sketch.
+- Enlarging background created from my own sketch.
 
 ### Solutions
 
