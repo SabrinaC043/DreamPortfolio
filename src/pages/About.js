@@ -5,6 +5,8 @@ import Col from 'react-bootstrap/Col';
 import f3Logo from '../assets/images/fantastic3.png';
 import reactLogo from '../assets/images/reactIcon.png';
 import mernLogo from '../assets/images/mernLogo.png';
+import mE from '../assets/images/mE.jpg';
+import dichotomy from '../assets/images/dichotomy.png'
 
 export default function About() {
     return (
@@ -15,7 +17,7 @@ export default function About() {
                     <p>I discovered Software developers were always learning new information and practiced coding daily to hone their skills. I believe in constantly learning and with a growth mindset, nothing is impossible! Dive into this app for more insight into my Software Development achievements.</p>
 
                     <Container fluid >
-                        <h5>Striking Skills</h5>
+                        <h5><i>Striking Skills</i></h5>
                         <Row>
                             <Col md={2} className='m-3'>
                                 <img src={f3Logo} width={80} />
@@ -30,7 +32,15 @@ export default function About() {
                         </Row>
                     </Container>
                 </Col>
-                <Col md={{ span: 4, offset: 4 }} className='about'>2 of 2</Col>
+                <Col md={{ span: 4, offset: 4 }} className='Image section'>
+                    <img src={mE} width={100} height={100} />
+                    <p> Mission and Values</p>
+                    <br>
+                    </br>
+                    <p> Favorite Books</p>
+                    <img src={dichotomy} width={100} height={100} />
+                </Col>
+
             </Row>
         </Container>
     )

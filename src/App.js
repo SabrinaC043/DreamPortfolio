@@ -4,6 +4,8 @@ import Header from './components/Header';
 import Main from './components/Main';
 
 
+
+
 function App() {
   const [page, setPage] = useState('about')
 
@@ -13,6 +15,7 @@ function App() {
     <>
       <Header setPage={setPage} />
       <Main page={page} />
+
     </>
   );
 }

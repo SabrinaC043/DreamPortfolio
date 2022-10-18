@@ -1,17 +1,25 @@
 body{
-  background-color: lightgrey;
-  background-image: url(./assets/images/lightningBolt.png);
-  background-size: 35%;
+  background-color: #e2c044;
+  background-image: url(./assets/images/bg1.png);
+  background-size: 100%;
+  width:100%;
   background-repeat: no-repeat;
-  background-position: center;
+  /* background-position: center; */
 }
 
  .about{
-  border: 3px solid black;
+  /* border: 3px solid black; */
+  background-color: #ffffff;
+
 } 
 
 
+.oneOnly{
+  background-color: #587b7f;
 
-#basic-navbar-nav {
-background-color: yellow;
+}
+
+.navigation {
+background-color: #587b7f;
+
 }
