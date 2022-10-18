@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/sabrina-dev/static/css/main.9792c6f5.css",
-    "main.js": "/sabrina-dev/static/js/main.cc736c7f.js",
-    "static/js/787.c4e7f8f9.chunk.js": "/sabrina-dev/static/js/787.c4e7f8f9.chunk.js",
-    "static/media/bg1.png": "/sabrina-dev/static/media/bg1.3fdfc80b27d859b7bfb4.png",
-    "static/media/devResume.png": "/sabrina-dev/static/media/devResume.9556dc3e2ec2d985ee61.png",
-    "static/media/fantastic3.png": "/sabrina-dev/static/media/fantastic3.51f43c19a9b2c35a1018.png",
-    "static/media/mE.jpg": "/sabrina-dev/static/media/mE.ba94f25e28097645f896.jpg",
-    "static/media/socialSpace.png": "/sabrina-dev/static/media/socialSpace.bfcc0fceb8d698c529a6.png",
-    "static/media/notYour.png": "/sabrina-dev/static/media/notYour.56ac0db720fd064dee06.png",
-    "static/media/mernLogo.png": "/sabrina-dev/static/media/mernLogo.a73eac1edadc5855547f.png",
-    "static/media/connectKid.png": "/sabrina-dev/static/media/connectKid.dea45270b29e7e991fe3.png",
-    "static/media/reactIcon.png": "/sabrina-dev/static/media/reactIcon.6fbe2c099897f87d1c29.png",
-    "static/media/dichotomy.png": "/sabrina-dev/static/media/dichotomy.ba049c96feaae44efa26.png",
-    "index.html": "/sabrina-dev/index.html",
-    "main.9792c6f5.css.map": "/sabrina-dev/static/css/main.9792c6f5.css.map",
-    "main.cc736c7f.js.map": "/sabrina-dev/static/js/main.cc736c7f.js.map",
-    "787.c4e7f8f9.chunk.js.map": "/sabrina-dev/static/js/787.c4e7f8f9.chunk.js.map"
+    "main.css": "/DreamPortfolio/static/css/main.e8406d34.css",
+    "main.js": "/DreamPortfolio/static/js/main.03969fd8.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/DreamPortfolio/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/bg1.png": "/DreamPortfolio/static/media/bg1.3fdfc80b27d859b7bfb4.png",
+    "static/media/devResume.png": "/DreamPortfolio/static/media/devResume.9556dc3e2ec2d985ee61.png",
+    "static/media/fantastic3.png": "/DreamPortfolio/static/media/fantastic3.51f43c19a9b2c35a1018.png",
+    "static/media/mE.jpg": "/DreamPortfolio/static/media/mE.ba94f25e28097645f896.jpg",
+    "static/media/socialSpace.png": "/DreamPortfolio/static/media/socialSpace.bfcc0fceb8d698c529a6.png",
+    "static/media/notYour.png": "/DreamPortfolio/static/media/notYour.56ac0db720fd064dee06.png",
+    "static/media/mernLogo.png": "/DreamPortfolio/static/media/mernLogo.a73eac1edadc5855547f.png",
+    "static/media/connectKid.png": "/DreamPortfolio/static/media/connectKid.dea45270b29e7e991fe3.png",
+    "static/media/reactIcon.png": "/DreamPortfolio/static/media/reactIcon.6fbe2c099897f87d1c29.png",
+    "static/media/dichotomy.png": "/DreamPortfolio/static/media/dichotomy.ba049c96feaae44efa26.png",
+    "index.html": "/DreamPortfolio/index.html",
+    "main.e8406d34.css.map": "/DreamPortfolio/static/css/main.e8406d34.css.map",
+    "main.03969fd8.js.map": "/DreamPortfolio/static/js/main.03969fd8.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/DreamPortfolio/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9792c6f5.css",
-    "static/js/main.cc736c7f.js"
+    "static/css/main.e8406d34.css",
+    "static/js/main.03969fd8.js"
   ]
 }
