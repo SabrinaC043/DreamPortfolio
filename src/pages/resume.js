@@ -2,23 +2,25 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import devResume from '../assets/images/devResume.png';
-
+import devResume from '../assets/images/devResume.pdf';
+import resume from '../assets/images/resume1.png';
+import "../components/resume.css";
+import { BsFillLightningFill } from "react-icons/bs";
 export default function Resume() {
 
     return (
 
         <Container fluid className='mt-3'>
             <Row>
-                <Col md={4} className='editsize'>
+                <Col md={5} className='resumeDirection'>
                     <p>Testing Resume </p>
-                    <img src={devResume} width={50} height={50} />
+                    <img className="resumeI" src={resume} alt="sabrina resume"></img>
+                    <a className="buttonResume" href={devResume} download="Sabrina Carrion Software Developer Resume"><BsFillLightningFill />Sabrina's Resume</a>
                     <Container fluid className='m-2'>
-
-
+                        {/* <img src={resume} alt="sabrina resume"></img> */}
                     </Container>
                 </Col>
-                <Col md={{ span: 4, offset: 4 }} className='what here'>What to put here?</Col>
+                <Col md={{ span: 3, offset: 3 }} className='what here'>What to put here?</Col>
             </Row>
         </Container>
 

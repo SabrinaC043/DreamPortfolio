@@ -1,6 +1,6 @@
 body{
   background-color: #e2c044;
-  background-image: url(./assets/images/bg1.png);
+  background-image:"/src/assets/images/sabsBckgd2.png";
   background-size: 100%;
   width:100%;
   background-repeat: no-repeat;
@@ -23,3 +23,13 @@ body{
 background-color: #587b7f;
 
 }
+
+
+
+/* .resumeDirection {
+
+
+
+} */
+
+/* image a class name as well and the resume a class name  */
