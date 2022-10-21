@@ -13,7 +13,7 @@ Utilizied React-bootstrap for design and React.
 
 ### Solutions
 
-- Deployed via
+- Deployed via GitHub
 - Brainstorming on how to resolve issues with background and looking for independent icon for email.
 - In search of additional libraries and intend on using semantic.
 

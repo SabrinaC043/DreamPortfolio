@@ -5,8 +5,10 @@ import Col from 'react-bootstrap/Col';
 import f3Logo from '../assets/images/fantastic3.png';
 import reactLogo from '../assets/images/reactIcon.png';
 import mernLogo from '../assets/images/mernLogo.png';
-import mE from '../assets/images/mE.jpg';
-import dichotomy from '../assets/images/dichotomy.png'
+import dichotomy from '../assets/images/dichotomy.png';
+import Carousel from 'react-bootstrap/Carousel';
+import viola from '../assets/images/violadavis.jpeg';
+import brothers from '../assets/images/brothers.jpeg';
 
 export default function About() {
     return (
@@ -32,16 +34,47 @@ export default function About() {
                         </Row>
                     </Container>
                 </Col>
-                <Col md={{ span: 4, offset: 4 }} className='Image section'>
-                    <img src={mE} width={100} height={100} />
-                    <p> Mission and Values</p>
-                    <br>
-                    </br>
-                    <p> Favorite Books</p>
-                    <img src={dichotomy} width={100} height={100} />
+                <Col md={{ span: 4, offset: 4 }} className='favoritessection'>
+                    <Carousel>
+                        <Carousel.Item>
+                            <img
+                                className="mt-5 d-block w-100"
+                                src={brothers}
+                                alt="First slide"
+                            />
+                            <Carousel.Caption>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                                className="mt-5 d-block w-100"
+                                src={dichotomy}
+                                alt="Second slide"
+                            />
+                            <Carousel.Caption>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                                className="mt-5 d-block w-100"
+                                src={viola}
+                                alt="Third slide"
+                            />
+                            <Carousel.Caption>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+                    </Carousel>
                 </Col>
-
             </Row>
         </Container>
     )
 }
+
+
+
+
+{/* <p> Mission and Values</p>
+                    <br>
+                    </br>
+                    <p> Favorite Books</p>
+                    <img src={dichotomy} width={100} height={100} /> */}

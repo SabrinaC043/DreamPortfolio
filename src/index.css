@@ -1,8 +1,8 @@
 body{
   background-color: #e2c044;
-  background-image:"/src/assets/images/sabsBckgd2.png";
-  background-size: 100%;
-  width:100%;
+  background-image: url(./assets/images/sabsBckgd.png);
+  background-size: cover;
+
   background-repeat: no-repeat;
   /* background-position: center; */
 }
