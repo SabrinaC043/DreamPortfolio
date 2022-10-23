@@ -7,32 +7,32 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function Contact() {
     return (
-        <Container fluid className="mt-3">
-            <Row>
-                <Col md={4} className="contactMe">
+        <div className=" contactMe mt-3">
 
-                    <a href="mailto:SabrinaCarrion43@gmail.com"
-                        className="email social"
-                    > <MdEmail size="50px" />
-                    </a>
 
-                    <a
-                        href="https://github.com/SabrinaC043"
-                        className="gitHub social"
-                    >
-                        <FaGithub size="50px" />
-                    </a>
 
-                    <a
-                        href="https://www.linkedin.com/in/sabrina-carrion-b1260a71/"
-                        className="linkedin social"
-                    >
-                        <FaLinkedin size="50px" />
-                    </a>
+            <a href="mailto:SabrinaCarrion43@gmail.com"
+                className="email"
+            > <MdEmail size="50px" />
+            </a>
 
-                </Col>
-            </Row>
+            <a
+                href="https://github.com/SabrinaC043"
+                className="gitHub"
+            >
+                <FaGithub size="50px" />
+            </a>
 
-        </Container >
+            <a
+                href="https://www.linkedin.com/in/sabrina-carrion-b1260a71/"
+                className="linkedin"
+            >
+                <FaLinkedin size="50px" />
+            </a>
+
+
+
+
+        </div >
     );
 }

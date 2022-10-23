@@ -12,12 +12,13 @@ function App() {
 
 
   return (
-    <>
+    <div className='homePage'>
       <Header setPage={setPage} />
-      <Main page={page} />
       <Contact />
+      <Main page={page} />
 
-    </>
+
+    </div>
   );
 }
 

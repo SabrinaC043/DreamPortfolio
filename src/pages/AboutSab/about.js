@@ -1,7 +1,4 @@
 
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import f3Logo from '../../assets/images/fantastic3.png';
 import reactLogo from '../../assets/images/reactIcon.png';
 import mernLogo from '../../assets/images/mernLogo.png';
@@ -10,33 +7,41 @@ import Carousel from 'react-bootstrap/Carousel';
 import viola from '../../assets/images/violadavis.jpeg';
 import brothers from '../../assets/images/brothers.jpeg';
 import { useState } from 'react';
+import './aboutsab.css';
 
 export default function About() {
 
     return (
-        <Container fluid className='mt-5 ms-5'>
-            <Row>
-                <Col md={4} className="about">
+        <section className='aboutSab'>
+
+            <section className="introSummary">
+                <div className="about">
                     <p>I am elated to be able to share insight as to who Sabrina Carrion is and how my life journey has brought me into the striking career of Software Development. Having been in the healthcare and pharmaceutical industry for over 9 years in pharmaceutical startups. My career as a Learning and Development Specialist, granted the opportunity to collaborate with folks from the Software Development field. I was blown away at the idea of working to contribute to the community and business as a Software Developer. </p>
                     <p>I discovered Software developers were always learning new information and practiced coding daily to hone their skills. I believe in constantly learning and with a growth mindset, nothing is impossible! Dive into this app for more insight into my Software Development achievements.</p>
+                </div>
 
-                    <Container fluid >
-                        <h5><i>Striking Skills</i></h5>
-                        <Row>
-                            <Col md={2} className='m-3'>
-                                <img src={f3Logo} width={80} />
-                            </Col>
-                            <Col md={2} className='m-3'>
-                                <img src={reactLogo} width={50} />
-                            </Col>
-                            <Col md={2} className='m-3'>
-                                <img src={mernLogo} width={100} />
-                            </Col>
+                <div className='skills' >
+                    <h5><i>Striking Skills</i></h5>
 
-                        </Row>
-                    </Container>
-                </Col>
-                {/* <Col md={{ span: 4, offset: 4 }} className='favoritessection'>
+
+                    <img src={f3Logo} width={80} />
+
+                    <img src={reactLogo} width={50} />
+
+
+                    <img src={mernLogo} width={100} />
+
+
+
+                </div>
+            </section>
+            <section className="testing">
+
+
+                <p>Mission and Values</p>
+
+            </section>
+            {/* <Col md={{ span: 4, offset: 4 }} className='favoritessection'>
                     <Carousel>
                         <Carousel.Item interval={10000}>
                             <img
@@ -67,8 +72,8 @@ export default function About() {
                         </Carousel.Item>
                     </Carousel>
                 </Col> */}
-            </Row>
-        </Container>
+
+        </section>
     )
 }
 

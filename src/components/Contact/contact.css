@@ -1,0 +1,13 @@
+.contactMe{
+    display:flex;
+    width:100%;
+}
+
+
+
+@media (min-width: 300px){
+    .contactMe{
+        width:25%;
+        flex-direction:column;
+    }
+}

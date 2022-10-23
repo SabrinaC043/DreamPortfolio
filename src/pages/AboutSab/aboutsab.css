@@ -1,0 +1,36 @@
+
+.aboutSab {
+
+width:100%;
+display:flex;
+flex-direction: column;
+
+}
+
+
+.introSummary {
+width: 100%;
+display:flex;
+flex-direction: column;
+margin:20px;
+border: solid 3px black;
+}
+
+.testing {
+    width: 100%;
+}
+
+
+@media (min-width: 300px){
+    .aboutSab {
+        width:70%;
+        flex-direction: row;
+    }
+
+.introSummary {
+    width:75%;
+}
+.testing{
+    width:25%;
+}
+}

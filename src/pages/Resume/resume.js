@@ -10,13 +10,13 @@ export default function Resume() {
 
     return (
 
-        <Container fluid className='mt-3'>
+        <Container className='mt-3'>
             <Row>
                 <Col md={5} className='resumeDirection'>
                     <p>Testing Resume </p>
                     <img className="resume" src={resume} alt="sabrina resume"></img>
                     <a className="buttonResume" href={devResume} download="Sabrina Carrion Software Developer Resume"><BsFillLightningFill />Sabrina's Resume</a>
-                    <Container fluid className='m-2'>
+                    <Container className='m-2'>
                         {/* <img src={resume} alt="sabrina resume"></img> */}
                     </Container>
                 </Col>
