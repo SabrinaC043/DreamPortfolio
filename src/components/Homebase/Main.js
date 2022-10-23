@@ -1,7 +1,7 @@
-import About from "../pages/about";
-import Project from "../pages/project";
-import Contact from "../pages/contact";
-import Resume from "../pages/resume";
+import About from "../../pages/AboutSab/about";
+import Project from "../../pages/WorkProjects/project";
+// import Contact from "./Contact";
+import Resume from "../../pages/Resume/resume";
 
 export default function Main({ page }) {
     // change this to a switch case 
@@ -13,9 +13,9 @@ export default function Main({ page }) {
             // return <h1>This is where the project Page element should go</h1>
             return <Project />
         }
-        else if (page === 'contact') {
-            return <Contact />
-        }
+        // else if (page === 'contact') {
+        //     return <Contact />
+        // }
         else if (page === 'resume') {
             return <Resume />
             // <h1>This is where the Resume Page element should go</h1>

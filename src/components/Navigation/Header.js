@@ -13,7 +13,7 @@ export default function Header({ setPage }) {
                         {/* <Nav.Link onClick={() => setPage('home')}>Home</Nav.Link> */}
                         <Nav.Link onClick={() => setPage('about')}>About</Nav.Link>
                         <Nav.Link onClick={() => setPage('projects')}>Projects</Nav.Link>
-                        <Nav.Link onClick={() => setPage('contact')}>Contact</Nav.Link>
+                        {/* <Nav.Link onClick={() => setPage('contact')}>Contact</Nav.Link> */}
                         <Nav.Link onClick={() => setPage('resume')}>Resume</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>

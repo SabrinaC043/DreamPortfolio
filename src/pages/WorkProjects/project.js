@@ -1,8 +1,8 @@
-import social from "../assets/images/socialSpace.png";
-import conImg from "../assets/images/connectKid.png";
+import social from "../../assets/images/socialSpace.png";
+import conImg from "../../assets/images/connectKid.png";
 import Container from 'react-bootstrap/Container';
 // import Carousel from 'react-bootstrap/Carousel';
-import notAvg from "../assets/images/notYour.png";
+import notAvg from "../../assets/images/notYour.png";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';

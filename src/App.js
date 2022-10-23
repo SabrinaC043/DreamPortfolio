@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import './App.css';
-import Header from './components/Header';
-import Main from './components/Main';
-
+import Header from './components/Navigation/Header';
+import Main from './components/Homebase/Main';
+import Contact from './components/Contact/Contact';
 
 
 
@@ -15,6 +15,7 @@ function App() {
     <>
       <Header setPage={setPage} />
       <Main page={page} />
+      <Contact />
 
     </>
   );
