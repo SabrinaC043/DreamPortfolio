@@ -1,5 +1,6 @@
 
 import f3Logo from '../../assets/images/fantastic3.png';
+import mySql from '../../assets/images/mySql.png';
 import reactLogo from '../../assets/images/reactIcon.png';
 import mernLogo from '../../assets/images/mernLogo.png';
 import dichotomy from '../../assets/images/dichotomy.png';
@@ -20,13 +21,13 @@ export default function About() {
                     <p>I discovered Software developers were always learning new information and practiced coding daily to hone their skills. I believe in constantly learning and with a growth mindset, nothing is impossible! Dive into this app for more insight into my Software Development achievements.</p>
                 </div>
 
-                <div className='skills' >
+                <div className='skills mt-5' >
                     <h5><i>Striking Skills</i></h5>
 
 
                     <img src={f3Logo} width={80} />
 
-                    <img src={reactLogo} width={50} />
+                    <img src={mySql} width={70} />
 
 
                     <img src={mernLogo} width={100} />

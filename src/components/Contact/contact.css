@@ -1,13 +1,38 @@
 .contactMe{
     display:flex;
     width:100%;
+    align-items: center;
+    background-color: #FEDC97;
+    justify-content: space-between;
+    border-radius: 15px;
+
+   
 }
 
 
 
-@media (min-width: 300px){
+.email {
+    color: #587B7F;
+   
+} 
+
+
+.gitHub{
+
+  color: #587B7F
+}
+
+.linkedin {
+    color: #587B7F
+}
+
+
+
+
+
+@media (min-width: 426px){
     .contactMe{
-        width:25%;
+        width:15%;
         flex-direction:column;
     }
 }
