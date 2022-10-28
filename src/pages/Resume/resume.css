@@ -1,4 +1,4 @@
-.resumeDirection{
+.resumePage{
 
 display:flex;
 flex-direction: column;
@@ -6,16 +6,35 @@ align-items: center;
 
 }
 
-.resumeI{
-
+.pdfResume{
+display:flex;
+flex-direction:column;
+align-items: center;
 width:100%;
+margin:10px;
 
 
 }
 
-.buttonResume{
-
-/* background-color: */
-
+.centerResume {
+    align-items:center;
 }
 
+.resumeImg{
+    width:70%;
+}
+
+
+@media (min-width: 426px){
+    .resumePage {
+        width:92%;
+        flex-direction: row;
+    }
+    .pdfResume{
+        width:75%;
+
+    }
+    .rightSlides{
+        width:25%;
+    }
+}

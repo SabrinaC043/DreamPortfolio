@@ -1,3 +1,7 @@
+* {  font-family: 'Raleway','Poppins','Cormorant Garamond', sans-serif, serif;
+
+}
+
 .homePage {
   display: flex;
   flex-wrap:wrap;

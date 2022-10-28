@@ -1,14 +1,42 @@
 .projects {
-background-color: #FFE54C;
+
 width:100%;
 display:flex;
 flex-direction: column;
+flex-wrap:wrap;
 
 }
 
-@media (min-width: 300px){
+.cardsLeft {
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+
+
+.cardsRight{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+
+}
+
+@media (min-width: 426px){
     .projects {
-        width:70%;
+     width:92%;
         flex-direction: row;
+    }
+    .cardsLeft {
+        width:50%;
+    }
+    
+    
+    
+    .cardsRight{
+        width:50%;
+    
     }
 }

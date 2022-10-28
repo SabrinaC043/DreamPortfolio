@@ -1,3 +1,6 @@
+* {
+    font-family: 'Raleway','Cormorant Garamond', 'Noto Serif Display', 'Poppins', 'Source Sans Pro', sans-serif, serif;
+} 
 
 .aboutSab {
 
@@ -35,9 +38,9 @@ text-align:left;
 }
 
 
-@media (min-width: 300px){
+@media (min-width: 426px){
     .aboutSab {
-        width:70%;
+        width:92%;
         flex-direction: row;
     }
 
