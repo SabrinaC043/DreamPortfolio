@@ -1,0 +1,14 @@
+.projects {
+background-color: #FFE54C;
+width:100%;
+display:flex;
+flex-direction: column;
+
+}
+
+@media (min-width: 300px){
+    .projects {
+        width:70%;
+        flex-direction: row;
+    }
+}

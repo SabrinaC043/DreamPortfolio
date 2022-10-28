@@ -10,44 +10,53 @@ import Col from 'react-bootstrap/Col';
 
 export default function Project() {
     return (
-        <Container>
+        <section className="projects" >
 
             <Card className="col-4 my-2" style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={social} />
                 <Card.Body>
                     <Card.Title>Space Invaders</Card.Title>
                     <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
+                        A local app that has a calendar and the ability to create and save events and messages. Events such as breweries, live concerts and etc. There is an add "Event Section" at the bottom for the user to save past events with there own memories/details.
+
+
                     </Card.Text>
                     <Card.Link href="https://dylangriess.github.io/Project1-Social-Calendar/" variant="primary">Space Invaders Project</Card.Link>
                 </Card.Body>
             </Card>
 
             <Card className="col-4" style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={notAvg} />
+                <Card.Img variant="middle" src={notAvg} />
                 <Card.Body>
                     <Card.Title>Not Your Average Bookies</Card.Title>
                     <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
+                        We designed a website for all the readers of the world to spend less time searching for a book and more time reading. We asked ourselves, what is the hardest part about reading? The foundational importance is promoting literacy in America in order to assist in securing a better future for the children.
                     </Card.Text>
-                    <Card.Link href="https://github.com/myang5t3r/NotYourAverageBookies" variant="primary">Bookies Project</Card.Link>
+                    <Card.Link href="https://github.com/myang5t3r/NotYourAverageBookies" variant="secondary">Bookies Project</Card.Link>
                 </Card.Body>
             </Card>
 
             <Card className="col-4 my-2" style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={conImg} />
+                <Card.Img variant="bottom" src={conImg} />
                 <Card.Body>
                     <Card.Title>ConnectKid</Card.Title>
                     <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
+                        ConnectKid is an application that parents can utilize in order to connect with other parents' and children within their community. This application works with parents' schedules and allows for virtual meetups and in person events. All of the events are child friendly and focus on inclusivity so there are autism and wheelchair accessible events and focuses on promoting interpersonal skills.
                     </Card.Text>
-                    <Card.Link href="https://thawing-woodland-41631.herokuapp.com/" variant="primary">ConnectKid Project</Card.Link>
+                    <Card.Link href="https://thawing-woodland-41631.herokuapp.com/" variant="tertiary">ConnectKid Project</Card.Link>
                 </Card.Body>
             </Card>
-        </Container>
+            <Card className="col-4 my-2" style={{ width: '18rem' }}>
+                <Card.Img variant="bottom" src={conImg} />
+                <Card.Body>
+                    <Card.Title>Regular Expressions</Card.Title>
+                    <Card.Text>
+                        In this tutorial, I will be explaining the regular expression or regex expression for an email.
+                    </Card.Text>
+                    <Card.Link href="https://gist.github.com/SabrinaC043/f9f2b3b53251e459a741e49ef9c01179" variant="quaternary">Regular Expressions Tutorial</Card.Link>
+                </Card.Body>
+            </Card>
+        </section>
 
     );
 }
