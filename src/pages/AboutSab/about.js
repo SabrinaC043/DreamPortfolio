@@ -1,14 +1,9 @@
 
 import f3Logo from '../../assets/images/fantastic3.png';
 import mySql from '../../assets/images/mySql.png';
-import reactLogo from '../../assets/images/reactIcon.png';
 import mernLogo from '../../assets/images/mernLogo.png';
-import dichotomy from '../../assets/images/dichotomy.png';
-import Carousel from 'react-bootstrap/Carousel';
-import viola from '../../assets/images/violadavis.jpeg';
-import brothers from '../../assets/images/brothers.jpeg';
-import { useState } from 'react';
 import './aboutsab.css';
+import yellowBlue from '../../assets/images/yellowblue.png';
 
 export default function About() {
 
@@ -36,11 +31,30 @@ export default function About() {
 
                 </div>
             </section>
-            <section className="mission">
+            <section className="core">
+                <section className="mission">
+                    <p>Mission</p>
+                    <p> My mission is to contribute to society in a meaningful way by leading others through the academic discipline of pedagogy. With the goal of learning and applying pharmaceutical technologies and coding. </p>
+                </section>
+                <section className="values">
+                    <p> Values</p>
+                    <ul>
+                        <li>
+                            Drive
+                        </li>
+                        <li>
+                            Authenticity
+                        </li>
 
+                        <li>
+                            Integrity
+                        </li>
+                        <li>
+                            Leader
+                        </li>
 
-                <p>Mission and Values</p>
-
+                    </ul>
+                </section>
             </section>
             {/* <Col md={{ span: 4, offset: 4 }} className='favoritessection'>
                     <Carousel>

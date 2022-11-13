@@ -1,5 +1,14 @@
-* {
+body {
     font-family: 'Raleway','Cormorant Garamond', 'Noto Serif Display', 'Poppins', 'Source Sans Pro', sans-serif, serif;
+    background-repeat: no-repeat;
+    position: inherit;
+background-image: url(/src/assets/images/yellowblue.png);
+
+    /* background-clip: border-box; */
+    
+
+   
+    
 } 
 
 .aboutSab {
@@ -18,24 +27,67 @@ display:flex;
 flex-direction: column;
 margin:20px;
 text-align:left;
+background-color: #7C9885;
+border-radius: 15px;
+/* color: black;  */
+color: #FEDC97;
+font-weight:bolder;
+padding:12px;
 
 }
 
 
 .skills {
-    background-color: #FFE54C;
+    background-color: #FEDC97;
     border: solid 1px #FEDD00;
     text-align:center;
     align-content: space-between;
      color: #484848;
+     border-radius: 15px;
 
 }
 
 
 
-.mission {
+.core {
     width: 100%;
+    background-color:#FEDC97;
+    border-radius: 15px;
+    text-align:left;
+    padding: 15px;
+
+
 }
+.mission {
+
+    /* background-color:#28666E; */
+    text-align:left;
+    padding: 15px;
+    border-radius: 15px;
+    color:#033F63;
+   
+    font-weight:bolder;
+    flex-direction:column;
+    align-items:center;
+
+
+    
+
+
+}
+
+.values {
+    background-color:#7C9885;
+    border-radius: 15px;
+    padding: 15px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    color: #FEDC97;
+
+}
+
+
 
 
 @media (min-width: 426px){
@@ -47,7 +99,7 @@ text-align:left;
 .introSummary {
     width:75%;
 }
-.mission{
+.core{
     width:25%;
 }
 }
