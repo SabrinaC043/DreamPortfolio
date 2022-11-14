@@ -1,14 +1,11 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 import { MdEmail } from "react-icons/md";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import './contact.css';
 
 export default function Contact() {
     return (
-        <div className=" contactMe mt-3">
+        <div className=" contactMe">
             <a href="mailto:SabrinaCarrion43@gmail.com" className="email" >
                 <MdEmail size="50px" /> </a>
 

@@ -1,12 +1,9 @@
 import social from "../../assets/images/socialSpace.png";
 import regex from '../../assets/images/regex.png';
 import conImg from "../../assets/images/connectKid.png";
-import Container from 'react-bootstrap/Container';
 // import Carousel from 'react-bootstrap/Carousel';
 import notAvg from "../../assets/images/notYour.png";
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import Col from 'react-bootstrap/Col';
 import './project.css';
 
 export default function Project() {
@@ -18,7 +15,7 @@ export default function Project() {
                     <Card.Body>
                         <Card.Title>Space Invaders</Card.Title>
                         <Card.Text>
-                            A calendar social app with the ability to create and save events and messages. Events such as breweries, live concerts and ticketMaster linked right in. There is an add "Event Section" at the bottom for the user to save past events with there own memories/details.
+                            A calendar social app with the ability to create and save events and messages. Events such as breweries, live concerts and ticketMaster linked right in. The     re is an add "Event Section" at the bottom for the user to save past events with there own memories/details.
 
 
                         </Card.Text>

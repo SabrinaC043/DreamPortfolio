@@ -1,9 +1,15 @@
+
 .projects {
 
 width:100%;
 display:flex;
 flex-direction: column;
 flex-wrap:wrap;
+background-image: url(/src/assets/images/mountains.png);
+background-repeat: repeat;
+background-position: center;
+
+
 
 }
 

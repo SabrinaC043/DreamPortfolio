@@ -1,23 +1,17 @@
 body {
     font-family: 'Raleway','Cormorant Garamond', 'Noto Serif Display', 'Poppins', 'Source Sans Pro', sans-serif, serif;
-    background-repeat: no-repeat;
-    position: inherit;
-background-image: url(/src/assets/images/yellowblue.png);
-
-    /* background-clip: border-box; */
-    
-
    
-    
 } 
 
 .aboutSab {
-
-width:100%;
+background-image: url(/src/assets/images/yellowblue.png);
+/* background-size: contain; */
+background-position: center;
 display:flex;
 flex-direction: column;
-
-}
+width:100%;
+height:100vh;
+} 
 
 
 .introSummary {
@@ -29,13 +23,22 @@ margin:20px;
 text-align:left;
 background-color: #7C9885;
 border-radius: 15px;
-/* color: black;  */
 color: #FEDC97;
 font-weight:bolder;
 padding:12px;
 
 }
 
+.portfolioImg {
+    border-radius:15px; 
+    background-color: #033F63;
+    flex-direction:column;
+    display: flex;
+    padding: 8px;
+    margin:15px
+
+
+}
 
 .skills {
     background-color: #FEDC97;

@@ -1,10 +1,15 @@
-.resumePage{
 
+
+.resumePage{
+background-image: url(/src/assets/images/trees.png);
 display:flex;
 flex-direction: column;
-align-items: center;
+/* align-items: center; */
+background-repeat: no-repeat;
+height:100%;
 
 }
+
 
 .pdfResume{
 display:flex;
