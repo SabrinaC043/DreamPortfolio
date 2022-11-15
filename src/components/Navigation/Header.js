@@ -6,7 +6,7 @@ export default function Header({ setPage }) {
     return (
         <Navbar className="navigation" expand="lg">
             <Container>
-                <Navbar.Brand href="https://www.sabrinacarrion.com/">The One & Only Sabrina</Navbar.Brand>
+                <Navbar.Brand href="https://www.sabrinacarrion.com">The One & Only Sabrina</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav" className='justify-content-end'>
                     <Nav >

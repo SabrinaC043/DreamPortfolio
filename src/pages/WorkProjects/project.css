@@ -6,8 +6,11 @@ display:flex;
 flex-direction: column;
 flex-wrap:wrap;
 background-image: url(/src/assets/images/mountains.png);
-background-repeat: repeat;
+background-repeat: no-repeat;
 background-position: center;
+background-size:cover;
+padding-bottom: 400px;
+
 
 
 
@@ -17,7 +20,9 @@ background-position: center;
     width:100%;
     display:flex;
     flex-direction: column;
+    margin-top: 50px;
     align-items:center;
+
 }
 
 
@@ -26,6 +31,7 @@ background-position: center;
     width:100%;
     display:flex;
     flex-direction: column;
+    margin-top: 50px;
     align-items:center;
 
 }

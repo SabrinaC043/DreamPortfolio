@@ -1,4 +1,4 @@
-import social from "../../assets/images/socialSpace.png";
+import social from '../../assets/images/socialSpace.png';
 import regex from '../../assets/images/regex.png';
 import conImg from "../../assets/images/connectKid.png";
 // import Carousel from 'react-bootstrap/Carousel';
@@ -15,7 +15,7 @@ export default function Project() {
                     <Card.Body>
                         <Card.Title>Space Invaders</Card.Title>
                         <Card.Text>
-                            A calendar social app with the ability to create and save events and messages. Events such as breweries, live concerts and ticketMaster linked right in. The     re is an add "Event Section" at the bottom for the user to save past events with there own memories/details.
+                            A social app with the ability to create and save events and messages to a calendar. Events such as breweries, live concerts and ticketMaster linked right in. There is an add "Event Section" at the bottom for the user to save past events with there own memories/details.
 
 
                         </Card.Text>
@@ -51,7 +51,7 @@ export default function Project() {
                     <Card.Body>
                         <Card.Title>ConnectKid</Card.Title>
                         <Card.Text>
-                            Parents utilize this app in order to connect with other parents' and children within their community for social events. This application works with parents' schedules and allows for virtual meetups and in person events. All of the events are child friendly and focus on inclusivity so there are autism and wheelchair accessible events. With the goal of honing  interpersonal skills.
+                            Parent app in order to connect with other parents' and children within their community for social events. This application works with parents' schedules and allows for virtual meetups and in person events. All of the events are child friendly and focus on inclusivity so there are autism and wheelchair accessible events. With the goal of honing interpersonal skills.
                         </Card.Text>
                         <Card.Link href="https://thawing-woodland-41631.herokuapp.com/" variant="tertiary">ConnectKid</Card.Link>
                     </Card.Body>

@@ -1,126 +1,102 @@
 body {
-    font-family: 'Raleway','Cormorant Garamond', 'Noto Serif Display', 'Poppins', 'Source Sans Pro', sans-serif, serif;
-   
-} 
+  font-family: "Raleway", "Cormorant Garamond", "Noto Serif Display", "Poppins",
+    "Source Sans Pro", sans-serif, serif;
+}
 
 .aboutSab {
-background-image: url(/src/assets/images/yellowblue.png);
-background-position: center;
-display:flex;
-flex-direction: column;
-width:100%;
-height:100vh;
-} 
+  background-image: url(/src/assets/images/yellowblue.png);
+  background-position: left;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  padding-left: 100px;
+}
 
 .midSection {
-    width:100%;
-    display:flex;
-    flex-direction: column;
-    margin: 20px;
-    align-items: center;
-
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* margin: 10px; */
+  align-items: center;
 }
 
 .introSummary {
-
-width: 100%;
-display:flex;
-flex-direction: column;
-margin:20px;
-text-align:left;
-background-color: #7C9885;
-border-radius: 15px;
-color: #FEDC97;
-font-weight:bolder;
-padding:12px;
-
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  background-color: #7c9885;
+  border-radius: 15px;
+  color: #fedc97;
+  font-weight: bolder;
+  padding: 12px;
 }
 
 .portfolioImg {
-    width:175px;
-    height: 175px;
-    border-radius:20%; 
-    background-color:#28666E;
-    display: flex;
-    padding: 8px;
-    margin:20px;
-    justify-content: center;
-
-    
-
+  width: 175px;
+  height: 175px;
+  border-radius: 20%;
+  background-color: #28666e;
+  display: flex;
+  padding: 8px;
+  margin: 20px;
+  justify-content: center;
 }
 .sabrina {
-border-radius: 15px;    
-height:150px;
-width:150px;
+  border-radius: 15px;
+  height: 150px;
+  width: 150px;
 }
 .skills {
-    background-color: #FEDC97;
-    border: solid 1px #FEDD00;
-    text-align:center;
-    align-content: space-between;
-     color: #484848;
-     border-radius: 20%;
-   
-
+  background-color: #fedc97;
+  border: solid 1px #fedd00;
+  text-align: center;
+  align-content: space-between;
+  color: #484848;
+  border-radius: 25%;
 }
-
-
 
 .core {
-    width: 100%;
-    background-color:#FEDC97;
-    border-radius: 15px;
-    text-align:left;
-    padding: 15px;
-    margin:20px;
-
-
+  width: 100%;
+  background-color: #fedc97;
+  border-radius: 15px;
+  text-align: left;
+  padding: 15px;
+  margin: 20px;
 }
 .mission {
+  /* background-color:#28666E; */
+  text-align: left;
+  padding: 15px;
+  border-radius: 15px;
+  color: #033f63;
 
-    /* background-color:#28666E; */
-    text-align:left;
-    padding: 15px;
-    border-radius: 15px;
-    color:#033F63;
-   
-    font-weight:bolder;
-    flex-direction:column;
-    align-items:center;
-
-
-    
-
-
+  font-weight: bolder;
+  flex-direction: column;
+  align-items: center;
 }
 
 .values {
-    background-color:#7C9885;
-    border-radius: 15px;
-    padding: 15px;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    color: #FEDC97;
-
+  background-color: #7c9885;
+  border-radius: 15px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fedc97;
 }
 
+@media (min-width: 426px) {
+  .aboutSab {
+    width: 92%;
+    flex-direction: row;
+  }
 
-
-
-@media (min-width: 426px){
-    .aboutSab {
-        width:92%;
-        flex-direction: row;
-        
-    }
-
-.midSection {
-    width:75%;
-}
-.core{
-    width:25%;
-}
-
+  .midSection {
+    width: 75%;
+  }
+  .core {
+    width: 25%;
+  }
 }
