@@ -3,7 +3,9 @@ import f3Logo from '../../assets/images/fantastic3.png';
 import sabrina from '../../assets/images/sabrina.png';
 import mySql from '../../assets/images/mySql.png';
 import mernLogo from '../../assets/images/mernLogo.png';
+import dichotomy from '../../assets/images/dichotomy.png';
 import './aboutsab.css';
+
 
 
 export default function About() {
@@ -15,6 +17,11 @@ export default function About() {
                 <div className="portfolioImg">
                     <img className="sabrina" src={sabrina} alt="sabrina" width={100} />
                 </div>
+                <section className="favorites">
+                    <div className="dichotomy">
+                        <img src={dichotomy} className="jockoBook" alt="dichotomy of leadership book" width={100} />
+                    </div>
+                </section>
                 <section className="introSummary">
                     <div className="about mt-3">
                         <p>I am elated to be able to share insight as to who Sabrina Carrion is and how my life journey has brought me into the striking career of Software Development. With my pharmaceutical industry experience; and over 9 years in pharmaceutical technology startups. </p> <p>My career as a Learning and Development Specialist, granted the opportunity to collaborate with folks from the Software Development field. I was blown away at the idea of working to contribute to the community and business as a Software Developer. </p>
@@ -64,38 +71,6 @@ export default function About() {
                     </ul>
                 </section>
             </section>
-            {/* <Col md={{ span: 4, offset: 4 }} className='favoritessection'>
-                    <Carousel>
-                        <Carousel.Item interval={10000}>
-                            <img
-                                className="mt-5 d-block w-100"
-                                src={brothers}
-                                alt="First slide"
-                            />
-                            <Carousel.Caption>
-                            </Carousel.Caption>
-                        </Carousel.Item>
-                        <Carousel.Item interval={10000}>
-                            <img
-                                className="mt-5 d-block w-100"
-                                src={dichotomy}
-                                alt="Second slide"
-                            />
-                            <Carousel.Caption>
-                            </Carousel.Caption>
-                        </Carousel.Item>
-                        <Carousel.Item interval={10000}>
-                            <img
-                                className="mt-5 d-block w-100"
-                                src={viola}
-                                alt="Third slide"
-                            />
-                            <Carousel.Caption>
-                            </Carousel.Caption>
-                        </Carousel.Item>
-                    </Carousel>
-                </Col> */}
-
-        </section >
+        </section>
     )
 }

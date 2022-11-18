@@ -11,7 +11,7 @@ export default function Resume() {
 
                 <div className="pdfResume">
                     <img className="resumeImg" src={resume} alt="sabrina resume"></img>
-                    <a className="buttonResume" href={devResume} download="Sabrina Carrion Software Developer Resume"><BsFillLightningFill />DownloadSabrina's Resume</a>
+                    <a className="buttonResume" href={devResume} download="Sabrina Carrion Software Developer Resume"><BsFillLightningFill /> Sabrina Software Developer</a>
                 </div>
             </section>
         </div>

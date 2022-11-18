@@ -4,10 +4,8 @@
 background-image: url(/src/assets/images/trees.png);
 display:flex;
 flex-direction: column;
-background-position:right;
-/* padding-top: 40px; */
-padding-bottom: 500px;
-height:100%;
+height:100vh;
+width:100%;
 background-repeat: no-repeat;
 }
 
@@ -17,13 +15,14 @@ display:flex;
 flex-direction:column;
 align-items: center;
 width:100%;
-margin:20px;
+/* margin-left:400px; */
+margin-top: 75px;
 
 }
-
+/* 
 .centerResume {
     align-items:center;
-}
+} */
 
 .resumeImg{
     width:70%;
@@ -32,10 +31,11 @@ margin:20px;
 .buttonResume {
     color: #FEDC97;
     font-weight: bolder;
+    
 
 }
 
-@media (min-width: 426px){
+@media (min-width:640px){
     .resumePage {
         width:92%;
         flex-direction: row;
