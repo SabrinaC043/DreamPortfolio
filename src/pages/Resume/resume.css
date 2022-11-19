@@ -1,12 +1,22 @@
 
-
 .resumePage{
 background-image: url(/src/assets/images/trees.png);
 display:flex;
 flex-direction: column;
 height:100vh;
-width:100%;
 background-repeat: no-repeat;
+}
+
+
+.quote {
+
+    display:flex;
+    flex-direction: column;
+    margin:50px;
+    text-align: center;
+    padding:12px;
+    color:#FEDC97;
+
 }
 
 
@@ -14,15 +24,11 @@ background-repeat: no-repeat;
 display:flex;
 flex-direction:column;
 align-items: center;
+justify-content: center;
 width:100%;
-/* margin-left:400px; */
-margin-top: 75px;
-
+margin-top: 25%;
 }
-/* 
-.centerResume {
-    align-items:center;
-} */
+
 
 .resumeImg{
     width:70%;
@@ -32,7 +38,6 @@ margin-top: 75px;
     color: #FEDC97;
     font-weight: bolder;
     
-
 }
 
 @media (min-width:640px){

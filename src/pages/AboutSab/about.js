@@ -4,6 +4,7 @@ import sabrina from '../../assets/images/sabrina.png';
 import mySql from '../../assets/images/mySql.png';
 import mernLogo from '../../assets/images/mernLogo.png';
 import dichotomy from '../../assets/images/dichotomy.png';
+import violadavis from '../../assets/images/violadavis.jpeg';
 import './aboutsab.css';
 
 
@@ -19,13 +20,16 @@ export default function About() {
                 </div>
                 <section className="favorites">
                     <div className="dichotomy">
-                        <img src={dichotomy} className="jockoBook" alt="dichotomy of leadership book" width={100} />
+                        <img src={dichotomy} alt="dichotomy of leadership book" width={100} />
+                    </div>
+                    <div className="findingMe">
+                        <img src={violadavis} alt="finding me autobiography" width={100} />
                     </div>
                 </section>
                 <section className="introSummary">
                     <div className="about mt-3">
-                        <p>I am elated to be able to share insight as to who Sabrina Carrion is and how my life journey has brought me into the striking career of Software Development. With my pharmaceutical industry experience; and over 9 years in pharmaceutical technology startups. </p> <p>My career as a Learning and Development Specialist, granted the opportunity to collaborate with folks from the Software Development field. I was blown away at the idea of working to contribute to the community and business as a Software Developer. </p>
-                        <p>I discovered Software developers were always learning new information and practiced coding daily to hone their skills. I believe in constantly learning and with a growth mindset, nothing is impossible! Dive into this app for more insight into my Software Development achievements.</p>
+                        <p>I am elated to share insight as to who Sabrina Carrion is and how my life journey has brought me into the striking career of Software Development. Over a decade of pharmaceutical technology startups and pharmaceutical experience, has prepared me for the level of excellence required to execute as a Software Developer. </p> <p>My career as a Learning and Development Specialist, granted the opportunity to collaborate with folks from the software development field. I was eager to unravel more about this excititing and creative industry. </p>
+                        <p>I discovered Software developers were always learning new information and practiced coding daily to hone their skills. This is what grabbed my heart and paved a new way for a great career. I believe in constantly learning and with a growth mindset, nothing is impossible! Dive into this app for more insight into my Software Development achievements.</p>
                     </div>
 
 
