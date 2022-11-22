@@ -15,7 +15,7 @@ export default function Resume() {
 
                 </div>
                 <div className="quote">
-                    <i> " Discipline is the bridge between goals and accomplishment.”"
+                    <i> " Discipline is the bridge between goals and accomplishment."
                         -Mother Theresa
                     </i>
                 </div>
