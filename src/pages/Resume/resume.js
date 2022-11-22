@@ -1,5 +1,5 @@
 
-import devResume from '../../assets/images/resumeDev.pdf';
+import devResume from '../../assets/images/resumeOfficial.pdf';
 import resume from '../../assets/images/resume2022.jpg';
 import "./resume.css";
 import { BsFillLightningFill } from "react-icons/bs";
