@@ -28,7 +28,7 @@ export default function About() {
                 </section>
                 <section className="introSummary">
                     <div className="about mt-3">
-                        <p>I am elated to share insight as to who Sabrina Carrion is and how my life journey has brought me into the striking career of Software Development. Over a decade of pharmaceutical technology startups and pharmaceutical experience, has prepared me for the level of excellence required to execute as a Software Developer. </p> <p>My career as a Learning and Development Specialist, granted the opportunity to collaborate with folks from the software development field. I was eager to unravel more about this excititing and creative industry. </p>
+                        <p>I am elated to share insight as to who Sabrina Carrion is and how my life journey has brought me into the striking career of Software Development. Over a decade of pharmaceutical technology startups and pharmaceutical experience, has prepared me for the level of excellence required to execute as a Software Developer. </p> <p>My career as a Learning and Development Specialist, granted the opportunity to collaborate with folks from the software development field. I was eager to unravel more about this exciting and creative industry. </p>
                         <p>I discovered Software developers were always learning new information and practiced coding daily to hone their skills. This is what grabbed my heart and paved a new way for a great career. I believe in constantly learning and with a growth mindset, nothing is impossible! Dive into this app for more insight into my Software Development achievements.</p>
                     </div>
 
