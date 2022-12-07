@@ -28,23 +28,3 @@ export default function Main({ page }) {
         </>
     )
 }
-
-
-
-
- // switch (page) {
-        //     case 'about':
-        //         return <About />
-        //         break;
-        //     case 'projects':
-        //        return <Project />
-        //         break;
-        //     case 'contact':
-        //        return <Contact />
-        //         break;
-        //     case 'resume':
-        //         return <Resume />
-        //         break;
-        //     default: console.log("ERROR");
-        // }
-
