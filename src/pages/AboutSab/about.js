@@ -53,7 +53,7 @@ export default function About() {
             <section className="core">
                 <section className="mission">
                     <p>Mission</p>
-                    <p> My mission is to contribute to society in a meaningful way by leading others through the academic discipline of pedagogy. With the goal of learning and applying pharmaceutical technologies and coding. </p>
+                    <p> My mission is to contribute to society in a meaningful way by pursuing my passion as an application developer. </p>
                 </section>
                 <section className="values">
                     <p> Values</p>
