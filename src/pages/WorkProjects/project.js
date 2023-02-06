@@ -4,30 +4,57 @@ import regex from '../../assets/images/regex.png';
 import conImg from "../../assets/images/connectKid.png";
 import Carousel from 'react-bootstrap/Carousel';
 import notAvg from "../../assets/images/notYour.png";
-import Card from 'react-bootstrap/Card';
+import Badge from 'react-bootstrap/Badge';
+// import Card from 'react-bootstrap/Card';
 import './project.css';
 
 export default function Project() {
     const [index, setIndex] = useState(0);
     const pickSelect = (selectedIndex, e) => {
         setIndex(selectedIndex);
-    };
+    }
     return (
+
         <section className="projects" >
+            <section className="optionBadges">
+                <Badge bg="dark"> Summary
+
+                </Badge>
+            </section>
             <Carousel activeIndex={index} onSelect={pickSelect}>
                 <Carousel.Item>
                     <img
-                        className="spaceImg col-7 mx-2 w-100"
-                        src={social} text="Space Invaders"
-                        alt="Space Invaders social project" />
+                        className="carouselCards col-7 mx-2 w-100"
+                        src={social}
+                        alt="Space Invaders social project slide one" />
                     <Carousel.Caption>
-                        <text><i>Development Focus: Front End</i>
-                        </text>
+                        <h2> Project Slides</h2>
                     </Carousel.Caption>
                 </Carousel.Item>
-            </Carousel>
+                <Carousel.Item>
+                    <img
+                        className="carouselCards col-7 mx-2 w-100"
+                        src={notAvg}
+                        alt="Not your average book project slide two"
+                    />
 
-            {/* <section className="cardsLeft">
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className="carouselCards col-7 mx-2 w-100"
+                        src={conImg}
+                        alt="Connect Kid project slide three"
+                    />
+
+                </Carousel.Item>
+            </Carousel>
+        </section>
+
+    );
+
+
+
+            /* <section className="cardsLeft">
                 <Card className="col-4 my-2" style={{ width: '18rem' }}>
                     <Card.Img variant="top" src={social} />
                     <Card.Body>
@@ -52,7 +79,7 @@ export default function Project() {
                     </Card.Body>
                 </Card>
             </section> */}
-            <section className="cardsRight">
+{/* <section className="cardsRight">
                 <Card className="col-4 my-2" style={{ width: '18rem' }}>
                     <Card.Img variant="bottom" src={regex} />
                     <Card.Body>
@@ -75,11 +102,4 @@ export default function Project() {
                     </Card.Body>
                 </Card>
 
-            </section>
-        </section>
-
-
-    );
-}
-
-
+            </section> */}
