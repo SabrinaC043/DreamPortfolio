@@ -1,7 +1,7 @@
 
 .projects {
 
-width:100%;
+width:100vh;
 display:flex;
 flex-direction: column;
 flex-wrap:wrap;
@@ -11,18 +11,17 @@ background-position: center;
 background-size:cover;
 padding-bottom: 400px;
 
-
-
-
 }
 
-.cardsLeft {
-    width:100%;
+.spaceImg {
     display:flex;
     flex-direction: column;
+    align-items: center;
     flex-wrap: wrap;
     margin-top: 50px;
-    align-items:center;
+    margin-right:150px;
+    margin-left:150px;
+    border-radius: 100px;
 
 }
 

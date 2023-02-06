@@ -1,15 +1,33 @@
+import React, { useState } from 'react';
 import social from '../../assets/images/socialSpace.png';
 import regex from '../../assets/images/regex.png';
 import conImg from "../../assets/images/connectKid.png";
-// import Carousel from 'react-bootstrap/Carousel';
+import Carousel from 'react-bootstrap/Carousel';
 import notAvg from "../../assets/images/notYour.png";
 import Card from 'react-bootstrap/Card';
 import './project.css';
 
 export default function Project() {
+    const [index, setIndex] = useState(0);
+    const pickSelect = (selectedIndex, e) => {
+        setIndex(selectedIndex);
+    };
     return (
         <section className="projects" >
-            <section className="cardsLeft">
+            <Carousel activeIndex={index} onSelect={pickSelect}>
+                <Carousel.Item>
+                    <img
+                        className="spaceImg col-7 mx-2 w-100"
+                        src={social} text="Space Invaders"
+                        alt="Space Invaders social project" />
+                    <Carousel.Caption>
+                        <text><i>Development Focus: Front End</i>
+                        </text>
+                    </Carousel.Caption>
+                </Carousel.Item>
+            </Carousel>
+
+            {/* <section className="cardsLeft">
                 <Card className="col-4 my-2" style={{ width: '18rem' }}>
                     <Card.Img variant="top" src={social} />
                     <Card.Body>
@@ -33,7 +51,7 @@ export default function Project() {
                         <Card.Link href="https://github.com/myang5t3r/NotYourAverageBookies" variant="secondary">Bookies</Card.Link>
                     </Card.Body>
                 </Card>
-            </section>
+            </section> */}
             <section className="cardsRight">
                 <Card className="col-4 my-2" style={{ width: '18rem' }}>
                     <Card.Img variant="bottom" src={regex} />
