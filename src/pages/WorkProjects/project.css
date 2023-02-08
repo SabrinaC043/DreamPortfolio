@@ -30,6 +30,12 @@ text-align: center;
     border-radius: 100px;
 
 }
+span.introductionCards{
+    margin:50px;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
 /* .cardsRight{
     width:100%;
     display:flex;
