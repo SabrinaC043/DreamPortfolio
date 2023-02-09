@@ -27,13 +27,29 @@ text-align: center;
     margin-top: 50px;
     margin-right:150px;
     margin-left:150px;
-    border-radius: 100px;
+    border-radius: 100px; 
+   
 
 }
+
+.projectSummaries{
+    flex-direction:row;
+    padding:40px;
+    align-items: left;
+    background-color:#7c9885 ;
+    color:#e2c044;
+    font-style: cormont garand ;
+    font-size: large;
+    font-weight: bolder;
+  
+}
+
+
 span.introductionCards{
     margin:50px;
     flex-direction: row;
     justify-content: space-between;
+   
 
 }
 /* .cardsRight{
@@ -45,6 +61,7 @@ span.introductionCards{
     flex-wrap: wrap;
 
 } */
+
 
 @media (min-width: 640px){
     .projects {

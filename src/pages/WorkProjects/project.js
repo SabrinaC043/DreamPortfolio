@@ -11,8 +11,8 @@ import Badge from "react-bootstrap/Badge";
 // import Card from 'react-bootstrap/Card';
 import "./project.css";
 
-var space = "https://dylangriess.github.io/Project1-Social-Calendar/"
-var books = "https://github.com/myang5t3r/NotYourAverageBookies"
+var space = "https://dylangriess.github.io/Project1-Social-Calendar/";
+var books = "https://github.com/myang5t3r/NotYourAverageBookies";
 
 
 export default function Project() {
@@ -36,20 +36,22 @@ export default function Project() {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        className="carouselCards col-7 mx-2 w-100"
+                        className="carouselCards mx-2 w-100"
                         src={notAvg}
                         alt="Not your average book project slide two"
                     />
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        className="carouselCards col-7 my-2 w-100"
+                        className="carouselCards my-2 w-100"
                         src={conImg}
                         alt="Connect Kid project slide three"
                     />
                 </Carousel.Item>
             </Carousel>
-
+            <section className="projectSummaries col-3 mx-5">
+                <text>Project Summaries</text>
+            </section>
             <span className="introductionCards">
                 <Card style={{ width: "18rem" }}>
                     <Card.Img variant="top" src="holder.js/100px180" />
@@ -61,7 +63,7 @@ export default function Project() {
                             with AGILE methodology implememtation.
                         </Card.Text>
 
-                        <Button variant="primary" href={space}> Social Calendar</Button>
+                        <Button variant="primary" src={window.open(space)}> Social Calendar</Button>
                         {/* {window.open(
                             "https://dylangriess.github.io/Project1-Social-Calendar/",
                             "Social Calendar"
@@ -79,7 +81,7 @@ export default function Project() {
                             integrate tables and dropdowns utilizing Handlebars and Bootstrap.
                             Overcame learning curve when linking front end to back end through seeded data.
                         </Card.Text>
-                        <Button variant="primary" href={books}> Books </Button>
+                        <Button variant="primary" src={window.open(books)}> Books </Button>
                         {/* {window.open(
                             "https://dylangriess.github.io/Project1-Social-Calendar/",
                             "Social Calendar"
@@ -89,7 +91,7 @@ export default function Project() {
                     </Card.Body>
                 </Card>
 
-                <h3 bg="dark"><i> Summary</i></h3>
+
             </span>
         </section>
     );
