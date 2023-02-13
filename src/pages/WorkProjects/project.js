@@ -13,6 +13,7 @@ import "./project.css";
 
 var space = "https://dylangriess.github.io/Project1-Social-Calendar/";
 var books = "https://github.com/myang5t3r/NotYourAverageBookies";
+var kid = ""
 
 
 export default function Project() {
@@ -63,7 +64,7 @@ export default function Project() {
                             with AGILE methodology implememtation.
                         </Card.Text>
 
-                        <Button variant="primary" src={window.open(space)}> Social Calendar</Button>
+                        <Button variant="primary" onSelect={pickSelect} src={space}> Social Calendar</Button>
                         {/* {window.open(
                             "https://dylangriess.github.io/Project1-Social-Calendar/",
                             "Social Calendar"
@@ -81,11 +82,7 @@ export default function Project() {
                             integrate tables and dropdowns utilizing Handlebars and Bootstrap.
                             Overcame learning curve when linking front end to back end through seeded data.
                         </Card.Text>
-                        <Button variant="primary" src={window.open(books)}> Books </Button>
-                        {/* {window.open(
-                            "https://dylangriess.github.io/Project1-Social-Calendar/",
-                            "Social Calendar"
-                        )} */}
+                        <Button variant="primary" src={books}> Books </Button>
 
                         <Button variant="secondary">Slides</Button>
                     </Card.Body>
