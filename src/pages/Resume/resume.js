@@ -1,6 +1,6 @@
 
 import devResume from '../../assets/images/sabrinadeveloperresume2023.pdf';
-import resume from '../../assets/images/sabrinacarriondeveloper1.png';
+import resume from '../../assets/images/devImgRes.png';
 import "./resume.css";
 import { BsFillLightningFill } from "react-icons/bs";
 export default function Resume() {
