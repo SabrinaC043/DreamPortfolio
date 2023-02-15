@@ -50,47 +50,60 @@ export default function Project() {
                     />
                 </Carousel.Item>
             </Carousel>
-            <section className="projectSummaries col-3 mx-5">
-                <text>Project Summaries</text>
+            <section className="projectSummaries my-2 mx-5">
+                <h4>Project Summaries</h4>
+
+                <span className="introductionCards">
+                    <Card style={{ width: "18rem" }}>
+                        <Card.Img variant="top" src="holder.js/100px180" />
+                        <Card.Body>
+                            <Card.Title>Space Invaders</Card.Title>
+                            <Card.Text>
+                                Developer focused on front end CSS and HTML components to
+                                integrate tables and dropdowns utilizing Bootstrap. Met deadline
+                                with AGILE methodology implememtation.
+                            </Card.Text>
+
+                            <Button onSelect={pickSelect}
+                                href="https://dylangriess.github.io/Project1-Social-Calendar/"
+                                variant="primary" src={space}> Social Calendar</Button>
+
+
+                            <Button variant="secondary" href="https://docs.google.com/presentation/d/1JaeyTNP4SBnC7YoqGUrEraO2fO4N0fXJtholC6xtKG0/view">Slides</Button>
+                        </Card.Body>
+                    </Card>
+                    <Card style={{ width: "18rem" }}>
+                        <Card.Img variant="middle" src="holder.js/100px180" />
+                        <Card.Body>
+                            <Card.Title>Not Your Average Book </Card.Title>
+                            <Card.Text>
+                                Developer focused on front end CSS and HTML components to
+                                integrate tables and dropdowns utilizing Handlebars and Bootstrap.
+                                Overcame learning curve when linking front end to back end through seeded data.
+                            </Card.Text>
+                            <Button onSelect={pickSelect}
+                                href="https://github.com/myang5t3r/NotYourAverageBookies/"
+                                variant="primary" src={books}>Books</Button>
+
+
+                            <Button variant="secondary"
+                                href="https://docs.google.com/presentation/d/1wjY8qQjeEi5Balw52prBQnAtRsiHsLfOK_QaR-1NIpw/view">Slides</Button>
+                        </Card.Body>
+                    </Card>
+                </span>
             </section>
-            <span className="introductionCards">
-                <Card style={{ width: "18rem" }}>
-                    <Card.Img variant="top" src="holder.js/100px180" />
-                    <Card.Body>
-                        <Card.Title>Space Invaders</Card.Title>
-                        <Card.Text>
-                            Developer focused on front end CSS and HTML components to
-                            integrate tables and dropdowns utilizing Bootstrap. Met deadline
-                            with AGILE methodology implememtation.
-                        </Card.Text>
+            <section className="businessFocus  my-2 col-3">
+                {/* <h3> Business Projects</h3> */}
+                {/* 
+                <h6>
+                    VocabApp:
+                    Android Application
+                    Launch Date: 
+                </h6>
+                <text> information</text> */}
 
-                        <Button variant="primary" onSelect={pickSelect} src={space}> Social Calendar</Button>
-                        {/* {window.open(
-                            "https://dylangriess.github.io/Project1-Social-Calendar/",
-                            "Social Calendar"
-                        )} */}
-
-                        <Button variant="secondary">Slides</Button>
-                    </Card.Body>
-                </Card>
-                <Card style={{ width: "18rem" }}>
-                    <Card.Img variant="top" src="holder.js/100px180" />
-                    <Card.Body>
-                        <Card.Title>Not Your Average Book </Card.Title>
-                        <Card.Text>
-                            Developer focused on front end CSS and HTML components to
-                            integrate tables and dropdowns utilizing Handlebars and Bootstrap.
-                            Overcame learning curve when linking front end to back end through seeded data.
-                        </Card.Text>
-                        <Button variant="primary" src={books}> Books </Button>
-
-                        <Button variant="secondary">Slides</Button>
-                    </Card.Body>
-                </Card>
-
-
-            </span>
-        </section>
+            </section>
+        </section >
     );
 
     /* <section className="cardsLeft">

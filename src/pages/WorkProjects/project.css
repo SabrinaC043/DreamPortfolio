@@ -12,12 +12,12 @@ background-size:cover;
 padding-bottom: 400px;
 
 }
-.optionBadges{
+/* .optionBadges{
 
 justify-content: flex-end;
 text-align: center;
 
-}    
+}     */
 
 .carouselCards {
     display:flex;
@@ -34,13 +34,15 @@ text-align: center;
 
 .projectSummaries{
     flex-direction:row;
+    flex-wrap:wrap;
+    margin:50px;
     padding:40px;
-    align-items: left;
+    align-items: center;
     background-color:#7c9885 ;
     color:#e2c044;
     font-style: cormont garand ;
     font-size: large;
-    font-weight: bolder;
+    border-radius:10px;
   
 }
 
@@ -48,9 +50,19 @@ text-align: center;
 span.introductionCards{
     margin:50px;
     flex-direction: row;
-    justify-content: space-between;
-   
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    background-color:#7c9885 ;
+    border-radius:110px;
+    color:#7c9885;
 
+}
+.businessFocus{
+    background-color: #e2c044;
+    border-radius:10px;
+    font-style: cormont garand ;
+    text-align: center;
+    color: #7c9885;
 }
 /* .cardsRight{
     width:100%;
