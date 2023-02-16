@@ -94,13 +94,11 @@ export default function Project() {
                         <Card.Body>
                             <Card.Img variant="middle" src="holder.js/100px180" />
                             <Card.Title> Connect Kid </Card.Title>
-                            <Card.Text>Developer"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam"
+                            <Card.Text>Developer focused on back end development specifically with creating seeds files, manipulation of models and defining typeDefs as well as Resolvers.
                             </Card.Text>
                             <Button onSelect={pickSelect}
-                                href=""
-                                variant="primary" >
-
-                            </Button>
+                                href="https://github.com/SabrinaC043/ConnectKid"
+                                variant="primary" >ConnectKid</Button>
                             <Button onSelect={pickSelect}
                                 href="https://docs.google.com/presentation/d/12XxNXT-uhpiqUjY4bggf-EDnKqGiD86Yo_-AZ2Ur2NU/edit#slide=id.p" variant="secondary">Slides</Button>
                         </Card.Body>
