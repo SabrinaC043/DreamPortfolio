@@ -44,7 +44,7 @@ export default function Project() {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        className="carouselCards my-2 w-100"
+                        className="carouselCards mx-2 my-2 w-100"
                         src={conImg}
                         alt="Connect Kid project slide three"
                     />
