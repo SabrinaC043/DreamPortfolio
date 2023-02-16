@@ -90,6 +90,21 @@ export default function Project() {
                                 href="https://docs.google.com/presentation/d/1wjY8qQjeEi5Balw52prBQnAtRsiHsLfOK_QaR-1NIpw/view">Slides</Button>
                         </Card.Body>
                     </Card>
+                    <Card style={{ width: "18rem" }}>
+                        <Card.Body>
+                            <Card.Img variant="middle" src="holder.js/100px180" />
+                            <Card.Title> Connect Kid </Card.Title>
+                            <Card.Text>Developer"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam"
+                            </Card.Text>
+                            <Button onSelect={pickSelect}
+                                href=""
+                                variant="primary" >
+
+                            </Button>
+                            <Button onSelect={pickSelect}
+                                href="https://docs.google.com/presentation/d/12XxNXT-uhpiqUjY4bggf-EDnKqGiD86Yo_-AZ2Ur2NU/edit#slide=id.p" variant="secondary">Slides</Button>
+                        </Card.Body>
+                    </Card>
                 </span>
             </section>
             <section className="businessFocus  my-2 col-3">
