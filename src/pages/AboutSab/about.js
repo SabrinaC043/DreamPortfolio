@@ -16,9 +16,9 @@ export default function About() {
         <section className='aboutSab' >
             <div className="midSection">
                 <div className="portfolioImg">
-                    <img className="sabrina" src={sabrina} alt="sabrina" width={100} />
+                    <img className="sabrina" src={sabrina} alt="sabrina" />
                 </div>
-                <section className="favorites">
+                <section className="favorites m-2">
                     <div className="dichotomy">
                         <img src={dichotomy} alt="dichotomy of leadership book" width={100} />
                     </div>

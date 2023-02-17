@@ -10,14 +10,15 @@ body {
   flex-direction: column;
   align-items: center;
   display: flex;
-  height: 100%;
+  height: 100vh;
+  width:100vh;
 
 }
 
 
 .midSection {
-  width: 100%;
-  /* height:100vh; */
+  width: 100vh;
+  height:100vh;
   display: flex;
   flex-direction: column;
   margin: 15px;
@@ -37,20 +38,17 @@ body {
   padding: 12px;
 }
 
-.portfolioImg {
-  width: 175px;
-  height: 175px;
-  border-radius: 20%;
-  background-color: #28666e;
-  display: flex;
-  padding: 8px;
-  margin: 50px;
-  justify-content: center;
+.portfolioImg{
+  flex-direction: column;
+  border-radius:50px;
+ flex-direction:row;
 }
 .sabrina {
-  border-radius: 15px;
-  height: 150px;
-  width: 150px;
+ border-radius:150px;
+ max-height: 340px;
+
+
+
 }
 
 .favorites {
@@ -59,11 +57,12 @@ flex-direction: column;
 }
 .dichotomy {
   display: flex;
-  justify-content: center;
-  background:#28666e;
+  justify-content: left;
+  background: #fedc97;
+  border-color: #fedc97;
   border-radius: 15px;
- height: 150px;
- width: 150px;
+ height: 100px;
+ width: 120px;
  padding: 2px;
  margin: 20px;
  
@@ -72,10 +71,10 @@ flex-direction: column;
 .findingMe{
   display: flex;
   justify-content: center;
-  background:#28666e;
+  background-color: #fedc97;
   border-radius: 15px;
- height: 150px;
- width: 150px;
+ height: 100px;
+ width: 90px;
  padding: 2px;
  margin: 20px;
 
@@ -90,25 +89,27 @@ flex-direction: column;
   text-align: center;
   align-content: space-between;
   color:#28666e;
-  border-radius: 25%;
+  border-radius: 15px;
   
 }
 
 .core {
   width: 100%;
   background-color: #fedc97;
-  border-radius: 15px;
   text-align: left;
-  padding: 15px;
-  margin: 20px;
+  border-radius: 15px;
+  margin-right:15px;
+
+
 }
 .mission {
   text-align: center;
-  padding: 15px;
+  padding: 30px;
   border-radius: 15px;
   color: #033f63;
   font-weight: bolder;
   flex-direction: column;
+  flex-wrap:wrap;
   align-items: center;
 }
 
@@ -117,6 +118,7 @@ flex-direction: column;
   border-radius: 15px;
   padding: 15px;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
   color: #fedc97;
