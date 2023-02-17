@@ -10,15 +10,13 @@ body {
   flex-direction: column;
   align-items: center;
   display: flex;
-  height: 100vh;
-  width:100vh;
+ 
 
 }
 
 
 .midSection {
   width: 100vh;
-  height:100vh;
   display: flex;
   flex-direction: column;
   margin: 15px;
@@ -46,6 +44,7 @@ body {
 .sabrina {
  border-radius:150px;
  max-height: 340px;
+ margin-left: 10px;
 
 
 
@@ -95,6 +94,8 @@ flex-direction: column;
 
 .core {
   width: 100%;
+  flex-direction: column;
+  flex-wrap:wrap;
   background-color: #fedc97;
   text-align: left;
   border-radius: 15px;

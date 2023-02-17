@@ -48,14 +48,15 @@ width:90%;
 }
 
 .buttonResume {
-    background-color: #033F63;
     color:#FEDC97;
+    background-color:#24a0ed ;
     font-weight: bolder;
     display:flex;
    justify-content: center;
    align-items: center;
-   border-radius: 195px;
-   margin:10%;
+   border-radius: 50px;
+   margin:15px;
+
 
    
 }
