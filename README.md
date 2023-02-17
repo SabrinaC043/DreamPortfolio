@@ -24,6 +24,6 @@ Utilizied React-bootstrap for design and React Native.
 
 ## Images
 
-![AboutME](./src/assets/images/sabrinadeveloperresume2023.pdf)
+![AboutME](./src/assets/images/sabrina.png)
 
 ![projectConnectKid](./src/assets/images/connectKid.png)
