@@ -19,10 +19,10 @@ Utilizied React-bootstrap for design and React.
 
 ## Link to Application
 
-[DreamPortfolio](https://sabrinac043.github.io/DreamPortfolio/)
+[DreamPortfolio](https://www.sabrinacarrion.com)
 
 ## Images
 
-![AboutME](./src/assets/images/readme1.png)
+[AboutME](./src/assets/images/readme1.png)
 
-![projectCo](./src/assets/images/projectco.png)
+[projectCo](./src/assets/images/projectco.png)
