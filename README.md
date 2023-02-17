@@ -3,7 +3,7 @@
 ## Description
 
 Portfolio of Sabrina Carrion's Software Development work throughout the course of the bootcamp.
-Utilizied React-bootstrap for design and React.
+Utilizied React-bootstrap for design and React Native.
 
 ### Problems
 
@@ -14,6 +14,7 @@ Utilizied React-bootstrap for design and React.
 ### Solutions
 
 - Deployed via GitHub
+- Deployed with live site linked below
 - Brainstorming on how to resolve issues with background and looking for independent icon for email.
 - In search of additional libraries and intend on using semantic.
 
@@ -25,4 +26,4 @@ Utilizied React-bootstrap for design and React.
 
 [AboutME](./src/assets/images/readme1.png)
 
-[projectCo](./src/assets/images/projectco.png)
+[projectCo](./src/assets/images/connectKid.png)
