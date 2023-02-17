@@ -20,10 +20,10 @@ Utilizied React-bootstrap for design and React Native.
 
 ## Link to Application
 
-[DreamPortfolio](https://www.sabrinacarrion.com)
+[Sabrina Carrion Portfolio](https://www.sabrinacarrion.com)
 
 ## Images
 
-[AboutME](./src/assets/images/readme1.png)
+![AboutME](./src/assets/images/sabrinadeveloperresume2023.pdf)
 
-[projectCo](./src/assets/images/connectKid.png)
+![projectConnectKid](./src/assets/images/connectKid.png)
