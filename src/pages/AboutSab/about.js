@@ -1,6 +1,6 @@
 
 import f3Logo from '../../assets/images/fantastic3.png';
-import sabrina from '../../assets/images/sabrina.png';
+// import sabrina from '../../assets/images/sabrina.png';
 import mySql from '../../assets/images/mySql.png';
 import mernLogo from '../../assets/images/mernLogo.png';
 import dichotomy from '../../assets/images/dichotomy.png';
@@ -15,9 +15,9 @@ export default function About() {
 
         <section className='aboutSab' >
             <div className="midSection">
-                <div className="portfolioImg">
-                    <img className="sabrina" src={sabrina} alt="sabrina" />
-                </div>
+                {/* <div className="portfolioImg">
+                    {/* <img className="sabrina" src={sabrina} alt="sabrina" /> */}
+                {/* </div> */}
 
                 <section className="introSummary">
                     <div className="about mt-3">
@@ -77,6 +77,6 @@ export default function About() {
                     </ul>
                 </section>
             </section>
-        </section>
+        </section >
     )
 }
