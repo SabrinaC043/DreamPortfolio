@@ -10,7 +10,8 @@ import Card from "react-bootstrap/Card";
 import Badge from "react-bootstrap/Badge";
 // import Card from 'react-bootstrap/Card';
 import "./project.css";
-
+import socialSlide from '../../assets/images/socialslide.png';
+import notYourGenre from '../../assets/images/notYourGenre.png'
 var space = "https://dylangriess.github.io/Project1-Social-Calendar/";
 var books = "https://github.com/myang5t3r/NotYourAverageBookies";
 var kid = ""
@@ -55,7 +56,7 @@ export default function Project() {
 
                 <span className="introductionCards">
                     <Card style={{ width: "18rem" }}>
-                        <Card.Img variant="top" src="holder.js/100px180" />
+                        <Card.Img className="slideImages" variant="top" src="holder.js/100px180" />
                         <Card.Body>
                             <Card.Title>Space Invaders</Card.Title>
                             <Card.Text>
@@ -73,7 +74,7 @@ export default function Project() {
                         </Card.Body>
                     </Card>
                     <Card style={{ width: "18rem" }}>
-                        <Card.Img variant="middle" src="holder.js/100px180" />
+                        <Card.Img className="slideImages" variant="middle" src={notYourGenre} />
                         <Card.Body>
                             <Card.Title>Not Your Average Book </Card.Title>
                             <Card.Text>
@@ -92,7 +93,7 @@ export default function Project() {
                     </Card>
                     <Card style={{ width: "18rem" }}>
                         <Card.Body>
-                            <Card.Img variant="middle" src="holder.js/100px180" />
+                            <Card.Img className="slideImages" variant="middle" src={socialSlide} />
                             <Card.Title> Connect Kid </Card.Title>
                             <Card.Text>Developer focused on back end development specifically with creating seeds files, manipulation of models and defining typeDefs as well as Resolvers.
                             </Card.Text>

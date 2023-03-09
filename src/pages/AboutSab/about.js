@@ -49,9 +49,9 @@ export default function About() {
                         {/* <h6>Lorem Ipsum </h6> */}
 
                     </div>
-                    {/* <img src={dichotomy} alt="dichotomy of leadership book" width={100} />
+                    <img src={dichotomy} alt="dichotomy of leadership book" width={100} />
 
-                    <img src={violadavis} alt="finding me autobiography" width={100} /> */}
+                    <img src={violadavis} alt="finding me autobiography" width={100} />
                 </section>
                 <section className="mission">
                     <p>Mission</p>

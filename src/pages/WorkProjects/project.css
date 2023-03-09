@@ -64,6 +64,13 @@ span.introductionCards{
     text-align: center;
     color: #7c9885;
 }
+
+.slideImages{
+    width:250px;
+    background-color: #e2c044;
+    align-items:center;
+}
+
 /* .cardsRight{
     width:100%;
     display:flex;
@@ -73,6 +80,7 @@ span.introductionCards{
     flex-wrap: wrap;
 
 } */
+
 
 
 @media (min-width: 640px){
@@ -86,7 +94,7 @@ span.introductionCards{
         flex-wrap: wrap;
     }
     
-    
+   
     
     .cardsRight{
         width:50%;

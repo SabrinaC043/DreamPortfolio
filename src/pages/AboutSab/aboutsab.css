@@ -5,6 +5,7 @@ body {
 
 .aboutSab {
   background-image: url(/src/assets/images/yellowblue.png);
+ height:100vh;
   background-size: cover;
   background-repeat: repeat;
   flex-direction: column;
@@ -73,7 +74,7 @@ flex-direction: column;
   background-color: #fedc97;
   border-radius: 15px;
  height: 100px;
- width: 90px;
+ width: 70px;
  padding: 2px;
  margin: 20px;
 
