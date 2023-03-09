@@ -55,6 +55,7 @@ span.introductionCards{
     background-color:#7c9885 ;
     border-radius:110px;
     color:#7c9885;
+    image-rendering: auto;
 
 }
 .businessFocus{
@@ -65,12 +66,14 @@ span.introductionCards{
     color: #7c9885;
 }
 
-.slideImages{
-    width:250px;
-    background-color: #e2c044;
-    align-items:center;
-}
 
+.icons{
+   width:100px;
+   border-radius: 25px;
+   border-width:12px;
+   border-color: darkslategrey;
+
+}
 /* .cardsRight{
     width:100%;
     display:flex;
