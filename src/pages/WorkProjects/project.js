@@ -1,16 +1,21 @@
 import React, { useState } from "react";
-import social from "../../assets/images/socialSpace.png";
-import regex from "../../assets/images/regex.png";
+import "./project.css";
+
 import conImg from "../../assets/images/connectKid.png";
 import Carousel from "react-bootstrap/Carousel";
 import notAvg from "../../assets/images/notYour.png";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
+//In the works 
 // import Alert from 'react-bootstrap/Alert';
 import Badge from "react-bootstrap/Badge";
 // import Card from 'react-bootstrap/Card';
-import "./project.css";
+import regex from "../../assets/images/regex.png";
+
+import social from "../../assets/images/socialSpace.png";
 import socialSlide from '../../assets/images/socialslide.png';
+import bookChart from '../../assets/images/bookChart.png';
+
 import notYourGenre from '../../assets/images/notYourGenre.png'
 var space = "https://dylangriess.github.io/Project1-Social-Calendar/";
 var books = "https://github.com/myang5t3r/NotYourAverageBookies";
@@ -74,7 +79,7 @@ export default function Project() {
                         </Card.Body>
                     </Card>
                     <Card style={{ width: "18rem" }}>
-                        <Card.Img className="slideImages" variant="middle" src={notYourGenre} />
+                        <Card.Img className="slideImages" variant="middle" src={bookChart} />
                         <Card.Body>
                             <Card.Title>Not Your Average Book </Card.Title>
                             <Card.Text>
