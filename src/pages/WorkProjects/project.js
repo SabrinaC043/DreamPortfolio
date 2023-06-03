@@ -7,10 +7,7 @@ import Carousel from "react-bootstrap/Carousel";
 import notAvg from "../../assets/images/notYour.png";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-//In the works
-// import Alert from 'react-bootstrap/Alert';
 import Badge from "react-bootstrap/Badge";
-// import Card from 'react-bootstrap/Card';
 import regex from "../../assets/images/regex.png";
 // project summary image imports
 import social from "../../assets/images/socialSpace.png";
@@ -60,7 +57,7 @@ export default function Project() {
                 </Carousel.Item>
             </Carousel>
             <section className="projectSummaries my-2 mx-5">
-                <h4>Project Summaries</h4>
+                <h3>Project Summaries</h3>
 
                 <span className="introductionCards">
                     <Card style={{ width: "18rem" }}>
