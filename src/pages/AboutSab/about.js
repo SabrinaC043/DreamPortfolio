@@ -1,5 +1,6 @@
 
 import f3Logo from '../../assets/images/fantastic3.png';
+import sabrina from '../../assets/images/sabrina.jpg'
 // import sabrina from '../../assets/images/sabrina.png';
 import mySql from '../../assets/images/mySql.png';
 import mernLogo from '../../assets/images/mernLogo.png';
@@ -15,14 +16,17 @@ export default function About() {
 
         <section className='aboutSab' >
             <div className="midSection">
+                <div className="porfolioImg">
+                    <img className="sabrina" src={sabrina} alt="image of developer" />
+                </div>
                 {/* <div className="portfolioImg">
                     {/* <img className="sabrina" src={sabrina} alt="sabrina" /> */}
                 {/* </div> */}
 
                 <section className="introSummary">
                     <div className="about mt-3">
-                        <p>I am elated to share insight as to who Sabrina Carrion is and my striking career in Software Development. With over a decade of pharmaceutical technology and startup-experience, I have prepared for the level of excellence and accuracy required to execute as a Software Developer. </p> <p>My past career as a Learning and Development Specialist positioned me to collaborate with folks from the software development field. After viewing their codes and platform bugs, etc. I was eager to unravel more about this exciting and creative industry. </p>
-                        <p>I discovered Software developers were always learning new information and practiced coding daily to hone their skills. This is what grabbed my heart and paved a new way for a great career. I believe in constantly learning and with a growth mindset, nothing is impossible! Dive into this app for more insight into my Software Development achievements.</p>
+                        <p> Hi, Sabrina Carrion here and this is my portfolio for my striking career in Software Development. With over a decade of pharmaceutical technology and startup-experience, I have prepared for the level of excellence and accuracy required to execute as a Software Developer. </p> <p>My past career as a Learning and Development Specialist positioned me to collaborate with folks from the software development field, cyber security and data compliance. </p>
+                        <p>I discovered Software developers were always learning new information and practiced coding daily to hone their skills. This is what grabbed my heart and paved a new way for a great career. I believe in constantly learning and making code functional and elegant.</p>
                     </div>
 
 
@@ -55,7 +59,7 @@ export default function About() {
                 </section>
                 <section className="mission">
                     <p>Mission</p>
-                    <p> My mission is to contribute to society in a meaningful way by pursuing my passion as an application developer. </p>
+                    <p> My mission is to contribute to society in a meaningful way by pursuing my passion as a full stack developer. </p>
                 </section>
                 <section className="values">
                     <p> Values</p>
@@ -71,7 +75,7 @@ export default function About() {
                             Integrity
                         </li>
                         <li>
-                            Leader
+                            Software Trainer
                         </li>
 
                     </ul>
