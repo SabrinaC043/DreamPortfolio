@@ -8,7 +8,7 @@ export default function Resume() {
     return (
         <div className="resumePage">
             <section className="centerResume">
-                <a className="buttonResume" href={devResume} download="Sabrina Carrion software developer">
+                <a className="buttonResume" href={devResume} download="Sabrina Carrion Software Developer">
                     <BsFillLightningFill /> Download Sabrina's Resume </a>
                 <div className="pdfResume">
                     <img className="resumeImg" src={resume} alt="sabrina resume"></img>

@@ -43,13 +43,12 @@ width:90%;
 .resumeImg{
     width:90%;
     display:flex;
-
     justify-content: center;
 }
 
 .buttonResume {
     color:#FEDC97;
-    background-color:#24a0ed ;
+    background-color:#0e83cb ;
     font-weight: bolder;
     display:flex;
    justify-content: center;

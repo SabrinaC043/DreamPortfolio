@@ -7,8 +7,7 @@ import Carousel from "react-bootstrap/Carousel";
 import notAvg from "../../assets/images/notYour.png";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-import Badge from "react-bootstrap/Badge";
-import regex from "../../assets/images/regex.png";
+
 // project summary image imports
 import social from "../../assets/images/socialSpace.png";
 import socialSlide from "../../assets/images/socialslide.png";
@@ -149,7 +148,7 @@ export default function Project() {
 
                 <h6>
                     Type: Android Application
-                    Launch Date: 5/22/23
+                    Launch Date: TBD
                 </h6>
                 <text> Educational application that is going to be launched into Google Marketplace. Game based design with matching and vocabulary recall for practical and fun learning.
                 </text>

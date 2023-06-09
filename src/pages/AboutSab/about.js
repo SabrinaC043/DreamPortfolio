@@ -17,11 +17,9 @@ export default function About() {
         <section className='aboutSab' >
             <div className="midSection">
                 <div className="porfolioImg">
-                    <img className="sabrina" src={sabrina} alt="image of developer" />
+                    <img className="sabrina my-3" src={sabrina} alt="software developer" />
                 </div>
-                {/* <div className="portfolioImg">
-                    {/* <img className="sabrina" src={sabrina} alt="sabrina" /> */}
-                {/* </div> */}
+
 
                 <section className="introSummary">
                     <div className="about mt-3">

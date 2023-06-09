@@ -4,8 +4,8 @@ body {
 }
 
 .aboutSab {
-  background-image: url(/src/assets/images/yellowblue.png);
- height:100vh;
+  background-image: url(/src/assets/images/trees.png);
+  height:100vh;
   background-size: cover;
   background-repeat: repeat;
   flex-direction: column;
@@ -16,13 +16,13 @@ body {
 }
 
 
-/* .midSection {
+.midSection {
   width: 100vh;
   display: flex;
   flex-direction: column;
   margin: 15px;
   align-items: center;
-} */
+}
 
 .introSummary {
   width: 100%;
@@ -39,8 +39,7 @@ body {
 
 .portfolioImg{
  display: flex;
-  align-items: center;
-  margin:25px;
+  margin-top:25px;
   padding-left: 100px;
   border-radius:50px;
  
@@ -56,7 +55,7 @@ body {
 
 .favorites {
 display: flex;
-flex-direction: column;
+flex-direction: row;
 }
 .dichotomy {
   display: flex;
