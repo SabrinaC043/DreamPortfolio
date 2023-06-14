@@ -23,8 +23,8 @@ export default function About() {
 
                 <section className="introSummary">
                     <div className="about mt-3">
-                        <p> Hi, Sabrina Carrion here and this is my portfolio for my striking career in Software Development. With over a decade of pharmaceutical technology and startup-experience, I have prepared for the level of excellence and accuracy required to execute as a Software Developer. </p> <p>My past career as a Learning and Development Specialist positioned me to collaborate with folks from the software development field, cyber security and data compliance. </p>
-                        <p>I discovered Software developers were always learning new information and practiced coding daily to hone their skills. This is what grabbed my heart and paved a new way for a great career. I believe in constantly learning and making code functional and elegant.</p>
+                        <p> Hi, Sabrina Carrion here and this is my portfolio for my striking career in Software Development. I am currently employed as an Account Manager with a pharmaceutical software company. The role has shown me the impact that the relational databases have with the overall productivity of a pharmacy or clinic. With over a decade of pharmaceutical technology and startup-experience, I have prepared for the level of attention to detail and accuracy required to execute as a Software Developer. </p> <p>My past career as a Learning and Development Specialist positioned me to collaborate with folks from the software development /app IOS specific field, cyber security and data compliance. </p>
+                        <p>I discovered Software developers were always learning new information and utilizing AGILE methodologies for a leaner process. This is what grabbed my heart and paved a new way for a great career. I believe in constantly learning and making code functional and elegant.</p>
                     </div>
 
 
