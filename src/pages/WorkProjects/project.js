@@ -42,7 +42,7 @@ export default function Project() {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        className="carouselCards mx-2 w-100"
+                        className="carouselCards my-2 w-100"
                         src={notAvg}
                         alt="Not your average book project slide two"
                     />
